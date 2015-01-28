@@ -1,0 +1,139 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@Scripts.Render("~/KDTree/KDTree.js")
+
+<h3 style="margin-left:100px;">
+    KD Tree Example
+</h3>
+
+<canvas style="margin-left:100px; border: 1px solid red; float:left;"
+
+        height="800" width="800"
+        id="canvas"></canvas>
+<br />
+<input id="value" value="1000"/>
+<div id="notDrawn"></div>
+<button style="height:30px;width:30px;" onclick="Draw()"></button>
+
+@Scripts.Render("~/bundles/jquery")
+<script>
+    var tree = new KDTree();
+    var rectangles = [];
+    var canvas = $("#canvas");
+    var context = canvas[0].getContext("2d");
+
+    function showCollection() {
+        alert(rectangles);
+    }
+
+
+    $(document).ready(function () {
+        Draw();
+    });
+
+    function Draw() {
+        var value = $("#value").val();
+        if (isNaN(value)) {
+            return;
+        }
+        else {
+            value = +value;
+        }
+
+        tree = new KDTree();
+        rectangles = [];
+
+        // generate random rectangles
+        for (var i = 0; i < value; i++) {
+            var x1 = Math.random() * 800;
+            var y1 = Math.random() * 800;
+
+            var height = 20;
+            var length = Math.random() * 1000;
+
+            var x2 = x1 + length;
+            var y2 = y1 + height;
+
+            rectangles.push(new KDRectangle(x1, y1, x2, y2, i.toString()));
+        }
+
+        //var collStr = '[{"LeftTop":{"X":545.4618794843554,"Y":40.640634298324585},"RightBottom":{"X":624.4066236540675,"Y":68.64063429832458},"Label":"0","Filled":false},{"LeftTop":{"X":503.6694845184684,"Y":305.7735810056329},"RightBottom":{"X":534.7491588443518,"Y":333.7735810056329},"Label":"1","Filled":false},{"LeftTop":{"X":518.9453722909093,"Y":322.35330417752266},"RightBottom":{"X":535.4139818344265,"Y":350.35330417752266},"Label":"2","Filled":true},{"LeftTop":{"X":516.6959587484598,"Y":640.1285225525498},"RightBottom":{"X":601.5111001674086,"Y":668.1285225525498},"Label":"3","Filled":false},{"LeftTop":{"X":236.48900836706161,"Y":618.19435544312},"RightBottom":{"X":292.480506375432,"Y":646.19435544312},"Label":"4","Filled":false},{"LeftTop":{"X":637.3492278158665,"Y":600.1774152740836},"RightBottom":{"X":812.482310924679,"Y":628.1774152740836},"Label":"5","Filled":false},{"LeftTop":{"X":58.87862332165241,"Y":9.281429648399353},"RightBottom":{"X":244.20984666794538,"Y":37.28142964839935},"Label":"6","Filled":false},{"LeftTop":{"X":557.5761932879686,"Y":653.3227331936359},"RightBottom":{"X":726.9592311698943,"Y":681.3227331936359},"Label":"7","Filled":true},{"LeftTop":{"X":630.3860954940319,"Y":782.9593962058425},"RightBottom":{"X":826.7067713197321,"Y":810.9593962058425},"Label":"8","Filled":false},{"LeftTop":{"X":9.056485071778297,"Y":705.744501017034},"RightBottom":{"X":194.12911455146968,"Y":733.744501017034},"Label":"9","Filled":false},{"LeftTop":{"X":191.73814672976732,"Y":595.4192314296961},"RightBottom":{"X":387.5489763915539,"Y":623.4192314296961},"Label":"10","Filled":true},{"LeftTop":{"X":305.89476376771927,"Y":32.86212291568518},"RightBottom":{"X":445.98122350871563,"Y":60.86212291568518},"Label":"11","Filled":false},{"LeftTop":{"X":690.201479010284,"Y":139.79222364723682},"RightBottom":{"X":700.7013204973191,"Y":167.79222364723682},"Label":"12","Filled":false},{"LeftTop":{"X":162.22379207611084,"Y":243.8537798821926},"RightBottom":{"X":330.5881520267576,"Y":271.8537798821926},"Label":"13","Filled":false},{"LeftTop":{"X":414.489559084177,"Y":335.8520355075598},"RightBottom":{"X":443.74767392873764,"Y":363.8520355075598},"Label":"14","Filled":false},{"LeftTop":{"X":161.07136216014624,"Y":674.1672968491912},"RightBottom":{"X":293.27855510637164,"Y":702.1672968491912},"Label":"15","Filled":false},{"LeftTop":{"X":130.4642478004098,"Y":779.8639493063092},"RightBottom":{"X":327.6845996733755,"Y":807.8639493063092},"Label":"16","Filled":false},{"LeftTop":{"X":210.6141198426485,"Y":658.3023834973574},"RightBottom":{"X":307.83913768827915,"Y":686.3023834973574},"Label":"17","Filled":false},{"LeftTop":{"X":799.7916020452976,"Y":93.36041919887066},"RightBottom":{"X":944.5086439605802,"Y":121.36041919887066},"Label":"18","Filled":false},{"LeftTop":{"X":687.7034509554505,"Y":17.844394594430923},"RightBottom":{"X":807.9731367062777,"Y":45.84439459443092},"Label":"19","Filled":false}]'
+        //rectangles = JSON.parse(collStr);
+
+        //rectangles.push(new KDRectangle(210, 658, 307,686, ""));
+        //rectangles.push(new KDRectangle(161,674,293,702, ""));
+
+        //rectangles.push(new KDRectangle(100, 800 - 700, 500, 800 - 200, ""));
+        //rectangles.push(new KDRectangle(200, 800 - 600, 300, 800 - 500, ""));
+        //rectangles.push(new KDRectangle(300, 800 - 500, 400, 800 - 300, ""));
+        //rectangles.push(new KDRectangle(400, 800 - 700, 600, 800 - 500, ""));
+
+
+        context.clearRect(0, 0, canvas.width(), canvas.height());
+
+        var notDrawn = 0;
+
+        // process rectangles
+        rectangles.forEach(function (rectangle) {
+            Add(rectangle);
+
+            var width = rectangle.RightBottom.X - rectangle.LeftTop.X;
+            var height = rectangle.RightBottom.Y - rectangle.LeftTop.Y;
+
+            if (!rectangle.Filled) {
+
+                context.fillStyle = "#545453";
+                context.fillRect(rectangle.LeftTop.X, rectangle.LeftTop.Y, width, height);
+            }
+            else {
+                notDrawn++;
+                // context.fillStyle = "#FF0000";
+                //context.fillRect(rectangle.LeftTop.X, rectangle.LeftTop.Y, width, height);
+            }
+        });
+
+        $("#notDrawn").html(notDrawn);
+    }
+
+    function Add(Rectangle) {
+        if (tree.Size == 0) {
+            tree.AddPoint([Rectangle.LeftTop.X, Rectangle.LeftTop.Y, Rectangle.RightBottom.X, Rectangle.RightBottom.Y], Rectangle);
+            return true;
+        }
+        else {
+            var pIter = tree.NearestNeighbors([Rectangle.LeftTop.X, Rectangle.LeftTop.Y, Rectangle.RightBottom.X, Rectangle.RightBottom.Y]);
+
+            while (pIter.MoveNext()) {
+
+                var overlaper = pIter._Current;
+
+                if (tree.DoOverlaping(Rectangle.LeftTop, Rectangle.RightBottom, overlaper.LeftTop, overlaper.RightBottom)) {
+
+                    Rectangle.Filled = true;
+                    return false;
+                }
+                else {
+
+                    var rect = Rectangle;
+                }
+            }
+
+            tree.AddPoint([Rectangle.LeftTop.X, Rectangle.LeftTop.Y, Rectangle.RightBottom.X, Rectangle.RightBottom.Y], Rectangle);
+            return true;
+        }
+    }
+
+    function KDRectangle(x1, y1, x2, y2, label) {
+        this.LeftTop = new KDPoint(x1, y1);
+        this.RightBottom = new KDPoint(x2, y2);
+        this.Label = label;
+        this.Filled = false;
+    }
+
+    function KDPoint(x, y) {
+        this.X = x;
+        this.Y = y;
+    }
+</script>

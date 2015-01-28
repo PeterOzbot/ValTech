@@ -1,0 +1,17 @@
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\Async Data and UI Virtualization Collection\Async Data and UI Virtualization Collection\bin\Debug\Async Data and UI Virtualization Collection.exe.config
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\Async Data and UI Virtualization Collection\Async Data and UI Virtualization Collection\bin\Debug\Async Data and UI Virtualization Collection.exe
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\Async Data and UI Virtualization Collection\Async Data and UI Virtualization Collection\bin\Debug\Async Data and UI Virtualization Collection.pdb
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\Async Data and UI Virtualization Collection\Async Data and UI Virtualization Collection\bin\Debug\AsyncVirtualization.Library.dll
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\Async Data and UI Virtualization Collection\Async Data and UI Virtualization Collection\bin\Debug\AsyncVirtualization.Library.pdb
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\Async Data and UI Virtualization Collection\Async Data and UI Virtualization Collection\obj\Debug\Async Data and UI Virtualization Collection.csprojResolveAssemblyReference.cache
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\Async Data and UI Virtualization Collection\Async Data and UI Virtualization Collection\obj\Debug\MainWindow.baml
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\Async Data and UI Virtualization Collection\Async Data and UI Virtualization Collection\obj\Debug\MainWindow.g.cs
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\Async Data and UI Virtualization Collection\Async Data and UI Virtualization Collection\obj\Debug\App.g.cs
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\Async Data and UI Virtualization Collection\Async Data and UI Virtualization Collection\obj\Debug\Async Data and UI Virtualization Collection_MarkupCompile.cache
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\Async Data and UI Virtualization Collection\Async Data and UI Virtualization Collection\obj\Debug\Async Data and UI Virtualization Collection.g.resources
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\Async Data and UI Virtualization Collection\Async Data and UI Virtualization Collection\obj\Debug\Async_Data_and_UI_Virtualization_Collection.Properties.Resources.resources
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\Async Data and UI Virtualization Collection\Async Data and UI Virtualization Collection\obj\Debug\Async Data and UI Virtualization Collection.csproj.GenerateResource.Cache
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\Async Data and UI Virtualization Collection\Async Data and UI Virtualization Collection\obj\Debug\Async Data and UI Virtualization Collection.exe
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\Async Data and UI Virtualization Collection\Async Data and UI Virtualization Collection\obj\Debug\Async Data and UI Virtualization Collection.pdb
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\Async Data and UI Virtualization Collection\Async Data and UI Virtualization Collection\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\Async Data and UI Virtualization Collection\Async Data and UI Virtualization Collection\obj\Debug\Async Data and UI Virtualization Collection_MarkupCompile.lref

@@ -1,0 +1,9 @@
+---Interval tree---
+
+Explanation: http://www.geeksforgeeks.org/interval-tree/
+
+Tree is used to hold all intervals that not overlap with each other and to check if new one will overlap any existing one.
+This tree is simpler and weaker version of KDTree.
+
+The tree is used to hold intervals(ranges, like 2-3). 
+Before insert into the tree, we can perform Search with given interval. Search returns any interval that overlaps given one.

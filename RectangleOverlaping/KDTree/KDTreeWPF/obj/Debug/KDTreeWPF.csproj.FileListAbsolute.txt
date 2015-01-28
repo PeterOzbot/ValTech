@@ -1,0 +1,33 @@
+c:\users\validus\documents\visual studio 2013\Projects\KDTree\KDTreeWPF\bin\Debug\KDTreeWPF.exe.config
+c:\users\validus\documents\visual studio 2013\Projects\KDTree\KDTreeWPF\bin\Debug\KDTreeWPF.exe
+c:\users\validus\documents\visual studio 2013\Projects\KDTree\KDTreeWPF\bin\Debug\KDTreeWPF.pdb
+c:\users\validus\documents\visual studio 2013\Projects\KDTree\KDTreeWPF\bin\Debug\KDTreeLibrary.dll
+c:\users\validus\documents\visual studio 2013\Projects\KDTree\KDTreeWPF\bin\Debug\KDTreeLibrary.pdb
+c:\users\validus\documents\visual studio 2013\Projects\KDTree\KDTreeWPF\obj\Debug\KDTreeWPF.csprojResolveAssemblyReference.cache
+c:\users\validus\documents\visual studio 2013\Projects\KDTree\KDTreeWPF\obj\Debug\MainWindow.baml
+c:\users\validus\documents\visual studio 2013\Projects\KDTree\KDTreeWPF\obj\Debug\MainWindow.g.cs
+c:\users\validus\documents\visual studio 2013\Projects\KDTree\KDTreeWPF\obj\Debug\App.g.cs
+c:\users\validus\documents\visual studio 2013\Projects\KDTree\KDTreeWPF\obj\Debug\KDTreeWPF_MarkupCompile.cache
+c:\users\validus\documents\visual studio 2013\Projects\KDTree\KDTreeWPF\obj\Debug\KDTreeWPF.g.resources
+c:\users\validus\documents\visual studio 2013\Projects\KDTree\KDTreeWPF\obj\Debug\KDTreeWPF.Properties.Resources.resources
+c:\users\validus\documents\visual studio 2013\Projects\KDTree\KDTreeWPF\obj\Debug\KDTreeWPF.csproj.GenerateResource.Cache
+c:\users\validus\documents\visual studio 2013\Projects\KDTree\KDTreeWPF\obj\Debug\KDTreeWPF.exe
+c:\users\validus\documents\visual studio 2013\Projects\KDTree\KDTreeWPF\obj\Debug\KDTreeWPF.pdb
+C:\Users\petero.GAMA-SYSTEM\Desktop\Rectangle OVerlaping\KDTree\KDTreeWPF\bin\Debug\KDTreeWPF.exe.config
+C:\Users\petero.GAMA-SYSTEM\Desktop\Rectangle OVerlaping\KDTree\KDTreeWPF\obj\Debug\KDTreeWPF.exe
+C:\Users\petero.GAMA-SYSTEM\Desktop\Rectangle OVerlaping\KDTree\KDTreeWPF\obj\Debug\KDTreeWPF.pdb
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\RectangleOverlaping\KDTree\KDTreeWPF\bin\Debug\KDTreeWPF.exe.config
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\RectangleOverlaping\KDTree\KDTreeWPF\obj\Debug\KDTreeWPF.exe
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\RectangleOverlaping\KDTree\KDTreeWPF\obj\Debug\KDTreeWPF.pdb
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\RectangleOverlaping\KDTree\KDTreeWPF\bin\Debug\KDTreeWPF.exe
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\RectangleOverlaping\KDTree\KDTreeWPF\bin\Debug\KDTreeWPF.pdb
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\RectangleOverlaping\KDTree\KDTreeWPF\bin\Debug\KDTreeLibrary.dll
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\RectangleOverlaping\KDTree\KDTreeWPF\bin\Debug\KDTreeLibrary.pdb
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\RectangleOverlaping\KDTree\KDTreeWPF\obj\Debug\KDTreeWPF.csprojResolveAssemblyReference.cache
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\RectangleOverlaping\KDTree\KDTreeWPF\obj\Debug\MainWindow.baml
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\RectangleOverlaping\KDTree\KDTreeWPF\obj\Debug\MainWindow.g.cs
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\RectangleOverlaping\KDTree\KDTreeWPF\obj\Debug\App.g.cs
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\RectangleOverlaping\KDTree\KDTreeWPF\obj\Debug\KDTreeWPF_MarkupCompile.cache
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\RectangleOverlaping\KDTree\KDTreeWPF\obj\Debug\KDTreeWPF.g.resources
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\RectangleOverlaping\KDTree\KDTreeWPF\obj\Debug\KDTreeWPF.Properties.Resources.resources
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\RectangleOverlaping\KDTree\KDTreeWPF\obj\Debug\KDTreeWPF.csproj.GenerateResource.Cache

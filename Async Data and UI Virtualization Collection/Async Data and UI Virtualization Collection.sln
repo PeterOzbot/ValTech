@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async Data and UI Virtualization Collection", "Async Data and UI Virtualization Collection\Async Data and UI Virtualization Collection.csproj", "{215C9DDF-3ED2-4345-8A27-95CD3897F513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncVirtualization.Library", "AsyncVirtualization.Library\AsyncVirtualization.Library.csproj", "{C0A38D62-7C13-457E-BFC3-6B6C6CB53EDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncVirtualization.Tests", "AsyncVirtualization.Tests\AsyncVirtualization.Tests.csproj", "{E204B8D1-68E3-444E-90F4-D6377682EA59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{215C9DDF-3ED2-4345-8A27-95CD3897F513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{215C9DDF-3ED2-4345-8A27-95CD3897F513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{215C9DDF-3ED2-4345-8A27-95CD3897F513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{215C9DDF-3ED2-4345-8A27-95CD3897F513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0A38D62-7C13-457E-BFC3-6B6C6CB53EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0A38D62-7C13-457E-BFC3-6B6C6CB53EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0A38D62-7C13-457E-BFC3-6B6C6CB53EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0A38D62-7C13-457E-BFC3-6B6C6CB53EDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E204B8D1-68E3-444E-90F4-D6377682EA59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E204B8D1-68E3-444E-90F4-D6377682EA59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E204B8D1-68E3-444E-90F4-D6377682EA59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E204B8D1-68E3-444E-90F4-D6377682EA59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

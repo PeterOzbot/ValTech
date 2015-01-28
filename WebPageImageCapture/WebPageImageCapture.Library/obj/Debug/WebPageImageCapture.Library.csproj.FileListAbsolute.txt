@@ -1,0 +1,5 @@
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\WebPageImageCapture\WebPageImageCapture.Library\bin\Debug\WebPageImageCapture.Library.dll
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\WebPageImageCapture\WebPageImageCapture.Library\bin\Debug\WebPageImageCapture.Library.pdb
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\WebPageImageCapture\WebPageImageCapture.Library\obj\Debug\WebPageImageCapture.Library.dll
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\WebPageImageCapture\WebPageImageCapture.Library\obj\Debug\WebPageImageCapture.Library.pdb
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\WebPageImageCapture\WebPageImageCapture.Library\bin\Debug\PhantomJS\phantomjs.exe

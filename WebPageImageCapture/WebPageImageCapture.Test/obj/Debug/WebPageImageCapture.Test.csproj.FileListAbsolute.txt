@@ -1,0 +1,8 @@
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\WebPageImageCapture\WebPageImageCapture.Test\bin\Debug\WebPageImageCapture.Test.dll
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\WebPageImageCapture\WebPageImageCapture.Test\bin\Debug\WebPageImageCapture.Test.pdb
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\WebPageImageCapture\WebPageImageCapture.Test\bin\Debug\WebPageImageCapture.Library.dll
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\WebPageImageCapture\WebPageImageCapture.Test\bin\Debug\WebPageImageCapture.Library.pdb
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\WebPageImageCapture\WebPageImageCapture.Test\obj\Debug\WebPageImageCapture.Test.csprojResolveAssemblyReference.cache
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\WebPageImageCapture\WebPageImageCapture.Test\obj\Debug\WebPageImageCapture.Test.dll
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\WebPageImageCapture\WebPageImageCapture.Test\obj\Debug\WebPageImageCapture.Test.pdb
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\WebPageImageCapture\WebPageImageCapture.Test\bin\Debug\PhantomJS\phantomjs.exe

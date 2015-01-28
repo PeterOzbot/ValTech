@@ -1,0 +1,174 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div>
+    WindowSize
+    <input id="WindowSizeInput" value="5" />
+    Stringency
+    <input id="StringencyInput"  value="1"/>
+    PeakDensityPercentage
+    <input id="PeakDensityPercentageInput" value="0.035" />
+    <button onclick="Draw();">Generate</button>
+</div>
+
+<style>
+    /* set the CSS */
+
+    body {
+        font: 12px Arial;
+    }
+
+    path {
+        stroke: steelblue;
+        stroke-width: 2;
+        fill: none;
+    }
+
+    .axis path,
+    .axis line {
+        fill: none;
+        stroke: grey;
+        stroke-width: 1;
+        shape-rendering: crispEdges;
+    }
+</style>
+<script>
+    function Draw() {
+
+        $.ajax({
+            url: '@Url.Action("GetData", "Home")',
+            data: {
+                WindowSize: $("#WindowSizeInput").val(),
+                Stringency: $("#StringencyInput").val(),
+                PeakDensityPercentage: $("#PeakDensityPercentageInput").val()
+            },
+            dataType: "json",
+            cache: false,
+            context: this,
+            success: function (response) {
+
+                d3.selectAll("svg").remove();
+
+                // Get the data
+                response.forEach(function (d) {
+                    d.X = new Date(d.X);
+                    d.Y = +d.Y;
+                });
+
+                // Set the dimensions of the canvas / graph
+                var margin = { top: 30, right: 20, bottom: 30, left: 50 },
+                    width = 1200 - margin.left - margin.right,
+                    height = 570 - margin.top - margin.bottom;
+
+
+                var minDate = response[0].X;
+                var maxDate = response[response.length - 1].X;
+
+                var minValue = 0;
+                var maxValue = d3.max(response, function (d) {
+                    return d.Y;
+                });
+
+                // Set the ranges
+                var y = d3.scale.linear().domain([minValue, maxValue]).range([height, 0]);
+                var x = d3.time.scale().domain([minDate, maxDate]).range([0, width]);
+
+                // Define the axes
+                var xAxis = d3.svg.axis().scale(x)
+                    .orient("bottom").ticks(5);
+
+                var yAxis = d3.svg.axis().scale(y)
+                    .orient("left").ticks(5);
+
+                // Define the line
+                var valueline = d3.svg.line()
+                    .x(function (d) {
+                        return x(d.X);
+                    })
+                    .y(function (d) {
+                        return y(d.Y);
+                    });
+
+                // Adds the svg canvas
+                var svg = d3.select("body")
+                    .append("svg")
+                        .attr("width", width + margin.left + margin.right)
+                        .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                        .attr("transform",
+                              "translate(" + margin.left + "," + margin.top + ")");
+
+                // Add the valueline path.
+                var path = svg.append("path")
+                     .attr("class", "line")
+                     .attr("d", valueline(response));
+
+                // Add the X Axis
+                svg.append("g")
+                    .attr("class", "x axis")
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(xAxis);
+
+                // Add the Y Axis
+                svg.append("g")
+                    .attr("class", "y axis")
+                    .call(yAxis);
+
+
+
+                // draw peaks
+                for (index = 1; index < response.length; index++) {
+                    if (response[index].IsPeak) {
+
+
+                        // get position of a peak on the path
+                        var position = GetPositionOnPath(x(response[index].X), path.node());
+
+                        console.log(position.x + "   " + position.y);
+
+
+                        svg.append('circle')
+                                     .attr("r", 3)
+                                     .attr("cx", position.x)
+                                     .attr("cy", position.y)
+                                     .attr("fill", "#eeeeee")
+                                     .attr("stroke", "rgba(0, 0, 0, 0.55)");
+
+
+                    }
+                }
+
+
+                //------------------------------------------
+                // Gets closes position to annotation
+                //------------------------------------------
+                function GetPositionOnPath(x, path) {
+
+                    // get path length
+                    var pathLength = path.getTotalLength();
+
+                    // initialize needed variables
+                    var beginning = x, end = pathLength, target;
+                    // with bisection we search on path until we get position with X matching excepted X value
+                    while (true) {
+                        target = Math.floor((beginning + end) / 2);
+
+                        // here lets use default function until there is a problem
+                        pos = path.getPointAtLength(target);
+                        if ((target === end || target === beginning) && pos.x !== x) {
+                            break;
+                        }
+                        if (pos.x > x) end = target;
+                        else if (pos.x < x) beginning = target;
+                        else break; //position found
+                    }
+
+                    // return position
+                    return pos;
+                }
+            }
+        });
+    }
+    Draw();
+</script>

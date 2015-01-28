@@ -1,0 +1,5 @@
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\Async Data and UI Virtualization Collection\AsyncVirtualization.Library\bin\Debug\AsyncVirtualization.Library.dll
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\Async Data and UI Virtualization Collection\AsyncVirtualization.Library\bin\Debug\AsyncVirtualization.Library.pdb
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\Async Data and UI Virtualization Collection\AsyncVirtualization.Library\obj\Debug\AsyncVirtualization.Library.csprojResolveAssemblyReference.cache
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\Async Data and UI Virtualization Collection\AsyncVirtualization.Library\obj\Debug\AsyncVirtualization.Library.dll
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\Async Data and UI Virtualization Collection\AsyncVirtualization.Library\obj\Debug\AsyncVirtualization.Library.pdb

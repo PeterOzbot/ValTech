@@ -1,0 +1,24 @@
+c:\users\validus\documents\visual studio 2013\Projects\KDTree\KDTreeConsole\bin\Debug\KDTreeConsole.exe.config
+c:\users\validus\documents\visual studio 2013\Projects\KDTree\KDTreeConsole\bin\Debug\KDTreeConsole.exe
+c:\users\validus\documents\visual studio 2013\Projects\KDTree\KDTreeConsole\bin\Debug\KDTreeConsole.pdb
+c:\users\validus\documents\visual studio 2013\Projects\KDTree\KDTreeConsole\obj\Debug\KDTreeConsole.csprojResolveAssemblyReference.cache
+c:\users\validus\documents\visual studio 2013\Projects\KDTree\KDTreeConsole\obj\Debug\KDTreeConsole.exe
+c:\users\validus\documents\visual studio 2013\Projects\KDTree\KDTreeConsole\obj\Debug\KDTreeConsole.pdb
+c:\users\validus\documents\visual studio 2013\Projects\KDTree\KDTreeConsole\bin\Debug\KDTreeLibrary.dll
+c:\users\validus\documents\visual studio 2013\Projects\KDTree\KDTreeConsole\bin\Debug\KDTreeLibrary.pdb
+C:\Users\petero.GAMA-SYSTEM\Desktop\Rectangle OVerlaping\KDTree\KDTreeConsole\bin\Debug\KDTreeConsole.exe.config
+C:\Users\petero.GAMA-SYSTEM\Desktop\Rectangle OVerlaping\KDTree\KDTreeConsole\obj\Debug\KDTreeConsole.exe
+C:\Users\petero.GAMA-SYSTEM\Desktop\Rectangle OVerlaping\KDTree\KDTreeConsole\obj\Debug\KDTreeConsole.pdb
+C:\Users\petero.GAMA-SYSTEM\Desktop\Rectangle OVerlaping\KDTree\KDTreeConsole\obj\Debug\KDTreeConsole.csprojResolveAssemblyReference.cache
+C:\Users\petero.GAMA-SYSTEM\Desktop\Rectangle OVerlaping\KDTree\KDTreeConsole\bin\Debug\KDTreeConsole.exe
+C:\Users\petero.GAMA-SYSTEM\Desktop\Rectangle OVerlaping\KDTree\KDTreeConsole\bin\Debug\KDTreeConsole.pdb
+C:\Users\petero.GAMA-SYSTEM\Desktop\Rectangle OVerlaping\KDTree\KDTreeConsole\bin\Debug\KDTreeLibrary.dll
+C:\Users\petero.GAMA-SYSTEM\Desktop\Rectangle OVerlaping\KDTree\KDTreeConsole\bin\Debug\KDTreeLibrary.pdb
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\RectangleOverlaping\KDTree\KDTreeConsole\bin\Debug\KDTreeConsole.exe.config
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\RectangleOverlaping\KDTree\KDTreeConsole\bin\Debug\KDTreeConsole.exe
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\RectangleOverlaping\KDTree\KDTreeConsole\bin\Debug\KDTreeConsole.pdb
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\RectangleOverlaping\KDTree\KDTreeConsole\bin\Debug\KDTreeLibrary.dll
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\RectangleOverlaping\KDTree\KDTreeConsole\bin\Debug\KDTreeLibrary.pdb
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\RectangleOverlaping\KDTree\KDTreeConsole\obj\Debug\KDTreeConsole.csprojResolveAssemblyReference.cache
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\RectangleOverlaping\KDTree\KDTreeConsole\obj\Debug\KDTreeConsole.exe
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\RectangleOverlaping\KDTree\KDTreeConsole\obj\Debug\KDTreeConsole.pdb

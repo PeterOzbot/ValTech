@@ -1,0 +1,4 @@
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\PeakDetection\PeakDetection.Library\bin\Debug\PeakDetection.Library.dll
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\PeakDetection\PeakDetection.Library\bin\Debug\PeakDetection.Library.pdb
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\PeakDetection\PeakDetection.Library\obj\Debug\PeakDetection.Library.dll
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\PeakDetection\PeakDetection.Library\obj\Debug\PeakDetection.Library.pdb

@@ -1,0 +1,7 @@
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\PeakDetection\PeakDetection.Tests\bin\Debug\PeakDetection.Tests.dll
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\PeakDetection\PeakDetection.Tests\bin\Debug\PeakDetection.Tests.pdb
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\PeakDetection\PeakDetection.Tests\obj\Debug\PeakDetection.Tests.csprojResolveAssemblyReference.cache
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\PeakDetection\PeakDetection.Tests\obj\Debug\PeakDetection.Tests.dll
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\PeakDetection\PeakDetection.Tests\obj\Debug\PeakDetection.Tests.pdb
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\PeakDetection\PeakDetection.Tests\bin\Debug\PeakDetection.Library.dll
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\PeakDetection\PeakDetection.Tests\bin\Debug\PeakDetection.Library.pdb

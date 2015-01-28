@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KDTreeLibrary", "KDTreeLibrary\KDTreeLibrary.csproj", "{20D8F504-C0E8-4152-9330-B088BBE2CA85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KDTreeConsole", "KDTreeConsole\KDTreeConsole.csproj", "{44ED4157-1D46-4FB3-AF1C-D039959A8119}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KDTreeWPF", "KDTreeWPF\KDTreeWPF.csproj", "{531BF110-DBB5-490B-A274-8ED62DD19865}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KDTreeSimpleLibrary", "KDTreeSimpleLibrary\KDTreeSimpleLibrary.csproj", "{1B250594-C5DE-4B28-945E-5E4D9DA40859}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KDTreeWeb", "KDTreeWeb\KDTreeWeb.csproj", "{41683AE9-C4A2-451A-87F8-181EFF3C46E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20D8F504-C0E8-4152-9330-B088BBE2CA85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20D8F504-C0E8-4152-9330-B088BBE2CA85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20D8F504-C0E8-4152-9330-B088BBE2CA85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20D8F504-C0E8-4152-9330-B088BBE2CA85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44ED4157-1D46-4FB3-AF1C-D039959A8119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44ED4157-1D46-4FB3-AF1C-D039959A8119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44ED4157-1D46-4FB3-AF1C-D039959A8119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44ED4157-1D46-4FB3-AF1C-D039959A8119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{531BF110-DBB5-490B-A274-8ED62DD19865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531BF110-DBB5-490B-A274-8ED62DD19865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531BF110-DBB5-490B-A274-8ED62DD19865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531BF110-DBB5-490B-A274-8ED62DD19865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B250594-C5DE-4B28-945E-5E4D9DA40859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B250594-C5DE-4B28-945E-5E4D9DA40859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B250594-C5DE-4B28-945E-5E4D9DA40859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B250594-C5DE-4B28-945E-5E4D9DA40859}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41683AE9-C4A2-451A-87F8-181EFF3C46E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41683AE9-C4A2-451A-87F8-181EFF3C46E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41683AE9-C4A2-451A-87F8-181EFF3C46E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41683AE9-C4A2-451A-87F8-181EFF3C46E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

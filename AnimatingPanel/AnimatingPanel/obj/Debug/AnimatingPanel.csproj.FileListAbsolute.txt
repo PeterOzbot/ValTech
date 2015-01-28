@@ -1,0 +1,16 @@
+C:\Users\petero.GAMA-SYSTEM\AppData\Local\Temporary Projects\AnimatingPanel\bin\Debug\AnimatingPanel.exe.config
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\AnimatingPanel\AnimatingPanel\bin\Debug\AnimatingPanel.exe.config
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\AnimatingPanel\AnimatingPanel\obj\Debug\AnimatingPanel.csprojResolveAssemblyReference.cache
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\AnimatingPanel\AnimatingPanel\obj\Debug\MainWindow.g.cs
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\AnimatingPanel\AnimatingPanel\obj\Debug\App.g.cs
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\AnimatingPanel\AnimatingPanel\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\AnimatingPanel\AnimatingPanel\obj\Debug\AnimatingPanel_MarkupCompile.cache
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\AnimatingPanel\AnimatingPanel\obj\Debug\AnimatingPanel_MarkupCompile.lref
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\AnimatingPanel\AnimatingPanel\bin\Debug\AnimatingPanel.exe
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\AnimatingPanel\AnimatingPanel\bin\Debug\AnimatingPanel.pdb
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\AnimatingPanel\AnimatingPanel\obj\Debug\MainWindow.baml
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\AnimatingPanel\AnimatingPanel\obj\Debug\AnimatingPanel.g.resources
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\AnimatingPanel\AnimatingPanel\obj\Debug\AnimatingPanel.Properties.Resources.resources
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\AnimatingPanel\AnimatingPanel\obj\Debug\AnimatingPanel.csproj.GenerateResource.Cache
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\AnimatingPanel\AnimatingPanel\obj\Debug\AnimatingPanel.exe
+C:\Users\petero.GAMA-SYSTEM\Documents\GitHub\ValTech\AnimatingPanel\AnimatingPanel\obj\Debug\AnimatingPanel.pdb
