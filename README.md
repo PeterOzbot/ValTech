@@ -28,3 +28,7 @@ Implemented data structure Interval Tree for checking if intervals overlap.
 #### Animating Panel
 
 Two custom WPF panels. One panel animates elements added to it another animates elements on mouse over.
+
+#### WPF 3D Animation
+
+3D animation implemented in WPF. Control is rotated depending where mouse cursor is.
