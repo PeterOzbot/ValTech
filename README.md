@@ -23,6 +23,7 @@ Custom collection for data virtualization with support for UI virtualization als
 #### Interval tree 
 
 Implemented data structure Interval Tree for checking if intervals overlap.
+<br>Implemented in Javascript.
 <br>Explanation can be found [here](http://www.geeksforgeeks.org/interval-tree/). 
 
 #### Animating Panel
@@ -32,3 +33,4 @@ Two custom WPF panels. One panel animates elements added to it another animates 
 #### WPF 3D Animation
 
 3D animation implemented in WPF. Control is rotated depending where mouse cursor is.
+<br>Example of binding ICommand to control events in XAML with behaviors.
