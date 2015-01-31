@@ -31,4 +31,4 @@ Two custom WPF panels. One panel animates elements added to it another animates 
 
 #### WPF 3D Animation
 
-3D animation implemented in WPF. Control rotated depending where mouse cursor is.
+3D animation implemented in WPF. Control is rotated depending where mouse cursor is.
