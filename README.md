@@ -34,3 +34,8 @@ Two custom WPF panels. One panel animates elements added to it another animates 
 
 3D animation implemented in WPF. Control is rotated depending where mouse cursor is.
 <br>Example of binding ICommand to control events in XAML with behaviors.
+
+#### Tree Builder
+
+Creates tree structure (Parent, Children) of nodes from flat unordered list.
+<br>Performance is O(n) with the power of references and at the expense of memory.
