@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacebookBusyIndicator.WPF", "FacebookBusyIndicator.WPF\FacebookBusyIndicator.WPF.csproj", "{329E1EA9-73D7-4568-B97D-C23A9EF51BBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{329E1EA9-73D7-4568-B97D-C23A9EF51BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329E1EA9-73D7-4568-B97D-C23A9EF51BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329E1EA9-73D7-4568-B97D-C23A9EF51BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329E1EA9-73D7-4568-B97D-C23A9EF51BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
