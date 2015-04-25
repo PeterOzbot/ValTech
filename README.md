@@ -39,3 +39,8 @@ Two custom WPF panels. One panel animates elements added to it another animates 
 
 Creates tree structure (Parent, Children) of nodes from flat unordered list.
 <br>Performance is O(n) with the power of references and at the expense of memory.
+
+#### FacebookBusyIndicator
+
+Busy indicator similar to the facebook's.
+
