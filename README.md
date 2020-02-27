@@ -50,3 +50,7 @@ Busy indicator similar to the facebook's.
 Function checks if the input date is a Slovenian day off holiday.
 <br>Most holidays are hard-coded, easter is calculated.
 Based on [Revealing the divine mathematics of a holiday](http://www.whydomath.org/Reading_Room_Material/ian_stewart/2000_03.html).
+
+#### CustomScrollbarTableLayoutPanel
+WinForms custom scrollbar integrated with TableLayoutPanel. Custom scrollbar can be skinned as desired.
+<br> Idea taken from https://www.codeproject.com/Articles/14801/How-to-skin-scrollbars-for-Panels-in-C
